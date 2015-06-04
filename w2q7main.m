@@ -12,11 +12,11 @@ subplot(2 , 2 , 1 );
 imagesc(OrigImg);
 colormap gray;
 title('Original Image');
-axis image; %same as axis equal except that the plot box sits tightly around the data
+axis image; % same as axis equal except that the plot box sits tightly around the data
 
 
 %%
-% Generate a LPF amtrix of given specification
+% Generate a LPF matrix of given specification
 LPF1 = repmat(1/9 , 3, 3); % LPF1 = ones(3,3) *1/9 ; % Alternative faster method
 
 % Compute the filtered image and plot
