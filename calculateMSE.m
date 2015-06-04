@@ -1,4 +1,4 @@
-function [ MSE ] = calcMSE(image1, image2)
+function [ MSE ] = calculateMSE(image1, image2)
 % Function to calculate the MSE (Mean Square Error)
 % Usually both the images are of same size (N1xN2)
 
